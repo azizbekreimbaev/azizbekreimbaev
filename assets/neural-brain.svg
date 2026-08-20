@@ -1,0 +1,1070 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 1200 720"
+  role="img"
+  aria-labelledby="title desc"
+>
+
+  <title id="title">
+    Azozbek Kevin 3D Neural Developer Brain
+  </title>
+
+  <desc id="desc">
+    Animated 3D holographic neural developer brain representing
+    Full Stack Development, AI, Robotics and NVIDIA Isaac Sim.
+  </desc>
+
+  <defs>
+
+    <!-- ================= GRADIENTS ================= -->
+
+    <linearGradient id="mainGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00E5FF"/>
+      <stop offset="30%" stop-color="#00A8FF"/>
+      <stop offset="55%" stop-color="#F7317F"/>
+      <stop offset="80%" stop-color="#9D00FF"/>
+      <stop offset="100%" stop-color="#5200FF"/>
+    </linearGradient>
+
+    <linearGradient id="depthGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#001D35"/>
+      <stop offset="50%" stop-color="#2B0646"/>
+      <stop offset="100%" stop-color="#10002B"/>
+    </linearGradient>
+
+    <radialGradient id="coreGradient">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="18%" stop-color="#00E5FF"/>
+      <stop offset="48%" stop-color="#F7317F"/>
+      <stop offset="100%" stop-color="#5200FF"/>
+    </radialGradient>
+
+    <radialGradient id="brainFill">
+      <stop offset="0%" stop-color="#15223A"/>
+      <stop offset="65%" stop-color="#090D19"/>
+      <stop offset="100%" stop-color="#03050B"/>
+    </radialGradient>
+
+    <!-- ================= FILTERS ================= -->
+
+    <filter id="strongGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="softGlow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="shadow3d" x="-50%" y="-50%" width="220%" height="220%">
+      <feDropShadow
+        dx="18"
+        dy="22"
+        stdDeviation="12"
+        flood-color="#000000"
+        flood-opacity=".85"
+      />
+      <feDropShadow
+        dx="-7"
+        dy="-7"
+        stdDeviation="8"
+        flood-color="#00E5FF"
+        flood-opacity=".22"
+      />
+    </filter>
+
+    <!-- ================= CSS ================= -->
+
+    <style>
+
+      .brain-back-3 {
+        fill: none;
+        stroke: #210044;
+        stroke-width: 12;
+        opacity: .28;
+      }
+
+      .brain-back-2 {
+        fill: none;
+        stroke: #4B007E;
+        stroke-width: 9;
+        opacity: .35;
+      }
+
+      .brain-back-1 {
+        fill: none;
+        stroke: #007B9E;
+        stroke-width: 7;
+        opacity: .38;
+      }
+
+      .brain-front {
+        fill: url(#brainFill);
+        fill-opacity: .83;
+
+        stroke: url(#mainGradient);
+        stroke-width: 5;
+
+        stroke-linejoin: round;
+        stroke-linecap: round;
+
+        filter: url(#shadow3d);
+
+        stroke-dasharray: 22 12;
+
+        animation:
+          outlineMove 10s linear infinite,
+          brainFloat 5s ease-in-out infinite;
+      }
+
+      .brain-inner {
+        fill: none;
+
+        stroke: url(#mainGradient);
+        stroke-width: 2.2;
+
+        opacity: .52;
+
+        stroke-dasharray: 5 12;
+
+        animation: signalFlow 5s linear infinite;
+      }
+
+      .wire {
+        fill: none;
+
+        stroke: url(#mainGradient);
+        stroke-width: 2.2;
+
+        opacity: .72;
+
+        stroke-dasharray: 7 11;
+
+        animation: signalFlow 4s linear infinite;
+      }
+
+      .wire.fast {
+        animation-duration: 2.8s;
+      }
+
+      .wire.slow {
+        animation-duration: 7s;
+        opacity: .45;
+      }
+
+      .node {
+        fill: url(#coreGradient);
+        stroke: #FFFFFF;
+        stroke-width: 1.4;
+
+        filter: url(#strongGlow);
+
+        transform-box: fill-box;
+        transform-origin: center;
+
+        animation:
+          nodePulse 2.4s ease-in-out infinite,
+          nodeFloat 4s ease-in-out infinite;
+      }
+
+      .n2 { animation-delay: -.4s; }
+      .n3 { animation-delay: -.8s; }
+      .n4 { animation-delay: -1.2s; }
+      .n5 { animation-delay: -1.6s; }
+      .n6 { animation-delay: -2s; }
+
+      .orbit {
+        fill: none;
+
+        stroke: url(#mainGradient);
+        stroke-width: 1.7;
+
+        opacity: .40;
+
+        stroke-dasharray: 7 16;
+
+        transform-origin: 600px 340px;
+
+        animation: orbitSpin 12s linear infinite;
+      }
+
+      .orbit.two {
+        animation-duration: 17s;
+        animation-direction: reverse;
+        opacity: .27;
+      }
+
+      .orbit.three {
+        animation-duration: 22s;
+        opacity: .20;
+      }
+
+      .core-shell {
+        fill: #060913;
+        fill-opacity: .96;
+
+        stroke: url(#mainGradient);
+        stroke-width: 4;
+
+        filter: url(#strongGlow);
+
+        transform-box: fill-box;
+        transform-origin: center;
+
+        animation: coreBreathe 3s ease-in-out infinite;
+      }
+
+      .core-ring {
+        fill: none;
+
+        stroke: #00E5FF;
+        stroke-width: 2;
+
+        opacity: .52;
+
+        stroke-dasharray: 8 12;
+
+        transform-origin: 600px 340px;
+
+        animation: orbitSpin 7s linear infinite;
+      }
+
+      .core-ring.pink {
+        stroke: #F7317F;
+        animation-direction: reverse;
+        animation-duration: 9s;
+      }
+
+      .title {
+        font-family:
+          ui-monospace,
+          SFMono-Regular,
+          Menlo,
+          Monaco,
+          Consolas,
+          monospace;
+
+        font-size: 30px;
+        font-weight: 900;
+
+        fill: #FFFFFF;
+
+        paint-order: stroke;
+        stroke: #050711;
+        stroke-width: 5px;
+        stroke-linejoin: round;
+      }
+
+      .subtitle {
+        font-family:
+          ui-monospace,
+          SFMono-Regular,
+          Menlo,
+          Monaco,
+          Consolas,
+          monospace;
+
+        font-size: 14px;
+        font-weight: 800;
+
+        fill: #00E5FF;
+
+        letter-spacing: 2.4px;
+      }
+
+      .mindset {
+        font-family:
+          ui-monospace,
+          SFMono-Regular,
+          Menlo,
+          Monaco,
+          Consolas,
+          monospace;
+
+        font-size: 12px;
+        font-weight: 700;
+
+        fill: #D6E2FF;
+      }
+
+      .tech-title {
+        font-family:
+          ui-monospace,
+          SFMono-Regular,
+          Menlo,
+          Monaco,
+          Consolas,
+          monospace;
+
+        font-size: 21px;
+        font-weight: 900;
+
+        fill: #FFFFFF;
+
+        paint-order: stroke;
+        stroke: #060913;
+        stroke-width: 5px;
+      }
+
+      .tech-sub {
+        font-family:
+          ui-monospace,
+          SFMono-Regular,
+          Menlo,
+          Monaco,
+          Consolas,
+          monospace;
+
+        font-size: 14px;
+        font-weight: 700;
+
+        fill: #B9C9E8;
+      }
+
+      .scanner {
+        stroke: #00E5FF;
+        stroke-width: 2;
+
+        opacity: 0;
+
+        filter: url(#softGlow);
+
+        animation: scannerMove 5s ease-in-out infinite;
+      }
+
+      .scanner.pink {
+        stroke: #F7317F;
+        animation-delay: -2.5s;
+      }
+
+      .particle {
+        fill: #FFFFFF;
+        filter: url(#strongGlow);
+
+        animation: particlePulse 2s ease-in-out infinite;
+      }
+
+      .p2 { animation-delay: -.5s; }
+      .p3 { animation-delay: -1s; }
+      .p4 { animation-delay: -1.5s; }
+
+
+      @keyframes outlineMove {
+        to {
+          stroke-dashoffset: -400;
+        }
+      }
+
+
+      @keyframes signalFlow {
+        to {
+          stroke-dashoffset: -180;
+        }
+      }
+
+
+      @keyframes brainFloat {
+
+        0%, 100% {
+          transform: translateY(0px);
+        }
+
+        50% {
+          transform: translateY(-8px);
+        }
+
+      }
+
+
+      @keyframes nodePulse {
+
+        0%, 100% {
+          transform: scale(.80);
+          opacity: .65;
+        }
+
+        50% {
+          transform: scale(1.45);
+          opacity: 1;
+        }
+
+      }
+
+
+      @keyframes nodeFloat {
+
+        0%, 100% {
+          translate: 0 0;
+        }
+
+        50% {
+          translate: 0 -5px;
+        }
+
+      }
+
+
+      @keyframes coreBreathe {
+
+        0%, 100% {
+          transform: scale(.96);
+        }
+
+        50% {
+          transform: scale(1.035);
+        }
+
+      }
+
+
+      @keyframes orbitSpin {
+
+        from {
+          transform: rotate(0deg);
+        }
+
+        to {
+          transform: rotate(360deg);
+        }
+
+      }
+
+
+      @keyframes scannerMove {
+
+        0%, 100% {
+          transform: translateY(-220px);
+          opacity: 0;
+        }
+
+        12% {
+          opacity: .75;
+        }
+
+        50% {
+          opacity: .42;
+        }
+
+        88% {
+          opacity: .75;
+        }
+
+        96% {
+          transform: translateY(250px);
+          opacity: 0;
+        }
+
+      }
+
+
+      @keyframes particlePulse {
+
+        0%, 100% {
+          opacity: .20;
+        }
+
+        50% {
+          opacity: 1;
+        }
+
+      }
+
+
+      @media (prefers-reduced-motion: reduce) {
+
+        * {
+          animation: none !important;
+        }
+
+      }
+
+    </style>
+
+  </defs>
+
+
+  <!-- ================================================= -->
+  <!--                   BACK DEPTH                       -->
+  <!-- ================================================= -->
+
+  <g transform="translate(28 32) scale(.965)">
+    <path
+      class="brain-back-3"
+      d="
+        M594 95
+
+        C520 43 420 56 366 120
+        C308 107 252 142 232 198
+        C176 218 154 278 176 331
+        C141 383 161 451 216 478
+        C230 542 299 570 362 543
+        C415 594 515 570 563 510
+
+        C587 480 595 450 595 414
+
+        M606 95
+
+        C680 43 780 56 834 120
+        C892 107 948 142 968 198
+        C1024 218 1046 278 1024 331
+        C1059 383 1039 451 984 478
+        C970 542 901 570 838 543
+        C785 594 685 570 637 510
+
+        C613 480 605 450 605 414
+      "
+    />
+  </g>
+
+  <g transform="translate(18 20) scale(.978)">
+    <path
+      class="brain-back-2"
+      d="
+        M594 95
+
+        C520 43 420 56 366 120
+        C308 107 252 142 232 198
+        C176 218 154 278 176 331
+        C141 383 161 451 216 478
+        C230 542 299 570 362 543
+        C415 594 515 570 563 510
+
+        C587 480 595 450 595 414
+
+        M606 95
+
+        C680 43 780 56 834 120
+        C892 107 948 142 968 198
+        C1024 218 1046 278 1024 331
+        C1059 383 1039 451 984 478
+        C970 542 901 570 838 543
+        C785 594 685 570 637 510
+
+        C613 480 605 450 605 414
+      "
+    />
+  </g>
+
+  <g transform="translate(9 10) scale(.99)">
+    <path
+      class="brain-back-1"
+      d="
+        M594 95
+
+        C520 43 420 56 366 120
+        C308 107 252 142 232 198
+        C176 218 154 278 176 331
+        C141 383 161 451 216 478
+        C230 542 299 570 362 543
+        C415 594 515 570 563 510
+
+        C587 480 595 450 595 414
+
+        M606 95
+
+        C680 43 780 56 834 120
+        C892 107 948 142 968 198
+        C1024 218 1046 278 1024 331
+        C1059 383 1039 451 984 478
+        C970 542 901 570 838 543
+        C785 594 685 570 637 510
+
+        C613 480 605 450 605 414
+      "
+    />
+  </g>
+
+
+  <!-- ================================================= -->
+  <!--                  FRONT BRAIN                       -->
+  <!-- ================================================= -->
+
+  <!-- LEFT -->
+
+  <path
+    class="brain-front"
+    d="
+      M594 95
+
+      C520 43
+       420 56
+       366 120
+
+      C308 107
+       252 142
+       232 198
+
+      C176 218
+       154 278
+       176 331
+
+      C141 383
+       161 451
+       216 478
+
+      C230 542
+       299 570
+       362 543
+
+      C415 594
+       515 570
+       563 510
+
+      C587 480
+       595 450
+       595 414
+
+      Z
+    "
+  />
+
+  <!-- RIGHT -->
+
+  <path
+    class="brain-front"
+    d="
+      M606 95
+
+      C680 43
+       780 56
+       834 120
+
+      C892 107
+       948 142
+       968 198
+
+      C1024 218
+       1046 278
+       1024 331
+
+      C1059 383
+       1039 451
+       984 478
+
+      C970 542
+       901 570
+       838 543
+
+      C785 594
+       685 570
+       637 510
+
+      C613 480
+       605 450
+       605 414
+
+      Z
+    "
+  />
+
+
+  <!-- ================================================= -->
+  <!--                   3D BRAIN FOLDS                   -->
+  <!-- ================================================= -->
+
+  <path class="brain-inner"
+    d="M370 123 Q330 190 370 242 T336 348 T390 474"
+  />
+
+  <path class="brain-inner"
+    d="M465 83 Q425 178 468 244 T438 390 T480 532"
+  />
+
+  <path class="brain-inner"
+    d="M280 185 Q355 215 318 287 T280 410"
+  />
+
+  <path class="brain-inner"
+    d="M520 130 Q485 205 520 284 T500 450"
+  />
+
+
+  <path class="brain-inner"
+    d="M830 123 Q870 190 830 242 T864 348 T810 474"
+  />
+
+  <path class="brain-inner"
+    d="M735 83 Q775 178 732 244 T762 390 T720 532"
+  />
+
+  <path class="brain-inner"
+    d="M920 185 Q845 215 882 287 T920 410"
+  />
+
+  <path class="brain-inner"
+    d="M680 130 Q715 205 680 284 T700 450"
+  />
+
+
+  <!-- ================================================= -->
+  <!--                    NEURAL WIRES                    -->
+  <!-- ================================================= -->
+
+  <path class="wire fast"
+    d="M275 206 Q390 170 505 230 T600 335"
+  />
+
+  <path class="wire"
+    d="M218 335 Q350 285 442 350 T580 430"
+  />
+
+  <path class="wire slow"
+    d="M270 465 Q390 415 470 468 T585 500"
+  />
+
+  <path class="wire"
+    d="M370 125 Q420 210 350 290 T270 405"
+  />
+
+  <path class="wire fast"
+    d="M468 105 Q530 175 485 268 T525 405"
+  />
+
+
+  <path class="wire fast"
+    d="M925 206 Q810 170 695 230 T600 335"
+  />
+
+  <path class="wire"
+    d="M982 335 Q850 285 758 350 T620 430"
+  />
+
+  <path class="wire slow"
+    d="M930 465 Q810 415 730 468 T615 500"
+  />
+
+  <path class="wire"
+    d="M830 125 Q780 210 850 290 T930 405"
+  />
+
+  <path class="wire fast"
+    d="M732 105 Q670 175 715 268 T675 405"
+  />
+
+
+  <!-- ================= CROSS NETWORK ================= -->
+
+  <path class="wire fast"
+    d="M350 290 C470 215 730 215 850 290"
+  />
+
+  <path class="wire"
+    d="M305 410 C455 340 745 340 895 410"
+  />
+
+  <path class="wire slow"
+    d="M410 510 C510 445 690 445 790 510"
+  />
+
+
+  <!-- ================================================= -->
+  <!--                    3D ORBITS                       -->
+  <!-- ================================================= -->
+
+  <ellipse
+    class="orbit"
+    cx="600"
+    cy="340"
+    rx="320"
+    ry="130"
+    transform="rotate(-13 600 340)"
+  />
+
+  <ellipse
+    class="orbit two"
+    cx="600"
+    cy="340"
+    rx="250"
+    ry="210"
+    transform="rotate(23 600 340)"
+  />
+
+  <ellipse
+    class="orbit three"
+    cx="600"
+    cy="340"
+    rx="390"
+    ry="175"
+    transform="rotate(61 600 340)"
+  />
+
+
+  <!-- ================================================= -->
+  <!--                   NEURAL NODES                     -->
+  <!-- ================================================= -->
+
+  <!-- LEFT -->
+
+  <circle class="node" cx="275" cy="206" r="9"/>
+  <circle class="node n2" cx="370" cy="125" r="8"/>
+  <circle class="node n3" cx="468" cy="105" r="7"/>
+
+  <circle class="node n4" cx="350" cy="290" r="8"/>
+  <circle class="node n5" cx="218" cy="335" r="9"/>
+
+  <circle class="node n6" cx="305" cy="410" r="7"/>
+  <circle class="node n2" cx="270" cy="465" r="9"/>
+
+  <circle class="node n3" cx="410" cy="510" r="8"/>
+  <circle class="node n4" cx="505" cy="230" r="7"/>
+
+
+  <!-- RIGHT -->
+
+  <circle class="node n3" cx="925" cy="206" r="9"/>
+  <circle class="node n4" cx="830" cy="125" r="8"/>
+  <circle class="node n5" cx="732" cy="105" r="7"/>
+
+  <circle class="node" cx="850" cy="290" r="8"/>
+  <circle class="node n2" cx="982" cy="335" r="9"/>
+
+  <circle class="node n3" cx="895" cy="410" r="7"/>
+  <circle class="node n4" cx="930" cy="465" r="9"/>
+
+  <circle class="node n5" cx="790" cy="510" r="8"/>
+  <circle class="node n6" cx="695" cy="230" r="7"/>
+
+
+  <!-- ================================================= -->
+  <!--                      CORE                          -->
+  <!-- ================================================= -->
+
+  <circle
+    class="core-shell"
+    cx="600"
+    cy="340"
+    r="108"
+  />
+
+  <circle
+    class="core-ring"
+    cx="600"
+    cy="340"
+    r="125"
+  />
+
+  <circle
+    class="core-ring pink"
+    cx="600"
+    cy="340"
+    r="138"
+  />
+
+  <circle
+    cx="600"
+    cy="340"
+    r="6"
+    fill="#FFFFFF"
+    filter="url(#strongGlow)"
+  />
+
+
+  <!-- ================= CORE TEXT ================= -->
+
+  <text
+    x="600"
+    y="322"
+    text-anchor="middle"
+    class="title"
+  >
+    AZOZBEK / KEVIN
+  </text>
+
+  <text
+    x="600"
+    y="353"
+    text-anchor="middle"
+    class="subtitle"
+  >
+    FULL STACK + ROBOTICS
+  </text>
+
+  <text
+    x="600"
+    y="380"
+    text-anchor="middle"
+    class="mindset"
+  >
+    THINK → BUILD → TEST → DEBUG → IMPROVE
+  </text>
+
+
+  <!-- ================================================= -->
+  <!--                  TECHNOLOGY LABELS                 -->
+  <!-- ================================================= -->
+
+  <!-- LEFT TOP -->
+
+  <text
+    x="110"
+    y="170"
+    class="tech-title"
+  >
+    REACT
+  </text>
+
+  <text
+    x="110"
+    y="198"
+    class="tech-sub"
+  >
+    TypeScript • Redux • Vite
+  </text>
+
+
+  <!-- LEFT CENTER -->
+
+  <text
+    x="84"
+    y="358"
+    class="tech-title"
+  >
+    NESTJS
+  </text>
+
+  <text
+    x="84"
+    y="386"
+    class="tech-sub"
+  >
+    Node.js • Express
+  </text>
+
+
+  <!-- LEFT BOTTOM -->
+
+  <text
+    x="170"
+    y="565"
+    class="tech-title"
+  >
+    MONGODB
+  </text>
+
+  <text
+    x="170"
+    y="593"
+    class="tech-sub"
+  >
+    Mongoose • PostgreSQL
+  </text>
+
+
+  <!-- RIGHT TOP -->
+
+  <text
+    x="930"
+    y="170"
+    class="tech-title"
+  >
+    GRAPHQL
+  </text>
+
+  <text
+    x="930"
+    y="198"
+    class="tech-sub"
+  >
+    REST API • JWT
+  </text>
+
+
+  <!-- RIGHT CENTER -->
+
+  <text
+    x="935"
+    y="358"
+    class="tech-title"
+  >
+    PYTHON
+  </text>
+
+  <text
+    x="935"
+    y="386"
+    class="tech-sub"
+  >
+    Research • Automation
+  </text>
+
+
+  <!-- RIGHT BOTTOM -->
+
+  <text
+    x="790"
+    y="565"
+    class="tech-title"
+  >
+    ISAAC SIM
+  </text>
+
+  <text
+    x="790"
+    y="593"
+    class="tech-sub"
+  >
+    AMR • VLM • Synthetic Data
+  </text>
+
+
+  <!-- ================================================= -->
+  <!--                     SCANNERS                       -->
+  <!-- ================================================= -->
+
+  <line
+    class="scanner"
+    x1="280"
+    y1="315"
+    x2="920"
+    y2="315"
+  />
+
+  <line
+    class="scanner pink"
+    x1="350"
+    y1="390"
+    x2="850"
+    y2="390"
+  />
+
+
+  <!-- ================================================= -->
+  <!--                  FLOATING PARTICLES                -->
+  <!-- ================================================= -->
+
+  <circle class="particle" cx="170" cy="280" r="3"/>
+
+  <circle class="particle p2" cx="320" cy="85" r="2.5"/>
+
+  <circle class="particle p3" cx="580" cy="72" r="2.5"/>
+
+  <circle class="particle p4" cx="1010" cy="250" r="3"/>
+
+  <circle class="particle p2" cx="875" cy="88" r="2.5"/>
+
+  <circle class="particle p3" cx="1035" cy="430" r="2.5"/>
+
+  <circle class="particle p4" cx="185" cy="505" r="3"/>
+
+  <circle class="particle" cx="600" cy="620" r="2.5"/>
+
+
+  <!-- ================= BOTTOM CAPTION ================= -->
+
+  <text
+    x="600"
+    y="670"
+    text-anchor="middle"
+    class="subtitle"
+  >
+    REACT • NESTJS • MONGODB • GRAPHQL • PYTHON • ISAAC SIM • AMR • VLM
+  </text>
+
+</svg>
