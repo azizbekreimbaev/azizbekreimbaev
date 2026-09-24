@@ -221,13 +221,13 @@ Think → Design → Build → Test → Debug → Improve
 <div align="center">
 
 <img
-src="https://github-readme-stats.vercel.app/api?username=azizbekreimbaev&show_icons=true&hide_border=true&theme=tokyonight"
+src="https://github-stats-extended.vercel.app/api?username=azizbekreimbaev&show_icons=true&hide_border=true&theme=tokyonight"
 height="165"
 alt="GitHub Stats"
 />
 
 <img
-src="https://github-readme-stats.vercel.app/api/top-langs/?username=azizbekreimbaev&layout=compact&hide_border=true&theme=tokyonight"
+src="https://github-stats-extended.vercel.app/api/top-langs/?username=azizbekreimbaev&layout=compact&hide_border=true&theme=tokyonight"
 height="165"
 alt="Top Languages"
 />
@@ -237,6 +237,7 @@ alt="Top Languages"
 <br/>
 
 ---
+
 
 <!-- ====================================================== -->
 <!--                         PACMAN                         -->
