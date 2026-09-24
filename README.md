@@ -80,6 +80,31 @@
 ---
 
 
+<!-- ================= ACTIVITY ================= -->
+<!-- ================= GITHUB ACTIVITY ================= -->
+
+## 📊 GitHub Activity
+
+<div align="center">
+
+<img
+src="https://github-stats-extended.vercel.app/api?username=azizbekreimbaev&show_icons=true&hide_border=true&theme=tokyonight"
+height="165"
+alt="GitHub Stats"
+/>
+
+<img
+src="https://github-stats-extended.vercel.app/api/top-langs/?username=azizbekreimbaev&layout=compact&hide_border=true&theme=tokyonight"
+height="165"
+alt="Top Languages"
+/>
+
+</div>
+
+<br/>
+
+---
+
 ---
 
 ## ⚡ Tech Stack
@@ -213,30 +238,6 @@ Think → Design → Build → Test → Debug → Improve
 
 ---
 
-<!-- ================= ACTIVITY ================= -->
-<!-- ================= GITHUB ACTIVITY ================= -->
-
-## 📊 GitHub Activity
-
-<div align="center">
-
-<img
-src="https://github-stats-extended.vercel.app/api?username=azizbekreimbaev&show_icons=true&hide_border=true&theme=tokyonight"
-height="165"
-alt="GitHub Stats"
-/>
-
-<img
-src="https://github-stats-extended.vercel.app/api/top-langs/?username=azizbekreimbaev&layout=compact&hide_border=true&theme=tokyonight"
-height="165"
-alt="Top Languages"
-/>
-
-</div>
-
-<br/>
-
----
 
 
 <!-- ====================================================== -->
