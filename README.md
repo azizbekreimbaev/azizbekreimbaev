@@ -168,235 +168,30 @@ const AzizbekKevin = {
 
 ---
 
-# ⚡ Tech Stack
-
-
-<!-- ================= FRONTEND ================= -->
-
-## 🎨 Frontend Development
+## ⚡ Tech Stack
 
 <div align="center">
 
-<img
-  src="https://skillicons.dev/icons?i=react,redux,vite,ts,js,html,css&perline=7"
-  alt="Frontend Tech"
-/>
+<img src="https://skillicons.dev/icons?i=react,redux,vite,ts,js,html,css,nodejs,nestjs,express,mongodb,postgres,graphql,python,git,github,vscode,postman,npm&perline=19" alt="Tech Stack" />
 
 <br/><br/>
 
-<img src="https://img.shields.io/badge/React-Frontend-61DAFB?style=for-the-badge&logo=react&logoColor=black"/>
-<img src="https://img.shields.io/badge/Redux-State_Management-764ABC?style=for-the-badge&logo=redux&logoColor=white"/>
-<img src="https://img.shields.io/badge/TypeScript-Type_Safety-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/>
+<img src="https://img.shields.io/badge/NVIDIA%20Isaac%20Sim-76B900?style=flat-square&logo=nvidia&logoColor=white"/>
+<img src="https://img.shields.io/badge/Mongoose-880000?style=flat-square&logo=mongoose&logoColor=white"/>
+<img src="https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white"/>
+<img src="https://img.shields.io/badge/AMR-Navigation-F7317F?style=flat-square"/>
+<img src="https://img.shields.io/badge/VLM-Navigation-7F00FF?style=flat-square"/>
+<img src="https://img.shields.io/badge/Synthetic%20Data-00A6D6?style=flat-square"/>
 
 <br/><br/>
 
-`React` • `Redux` • `Vite` • `TypeScript` • `JavaScript` • `HTML` • `CSS`
+`React` • `Redux` • `Vite` • `TypeScript` • `JavaScript` • `HTML` • `CSS` •
+`Node.js` • `NestJS` • `Express.js` • `MongoDB` • `Mongoose` • `PostgreSQL` •
+`GraphQL` • `REST API` • `JWT` • `Python` • `NVIDIA Isaac Sim` • `AMR` •
+`VLM Navigation` • `Synthetic Data` • `Git` • `GitHub` • `Postman`
 
 </div>
 
-<br/>
-
----
-
-<!-- ================= BACKEND ================= -->
-
-## ⚙️ Backend Development
-
-<div align="center">
-
-<img
-  src="https://skillicons.dev/icons?i=nodejs,nestjs,express&perline=6"
-  alt="Backend Tech"
-/>
-
-<br/><br/>
-
-<img src="https://img.shields.io/badge/Node.js-Backend-339933?style=for-the-badge&logo=nodedotjs&logoColor=white"/>
-<img src="https://img.shields.io/badge/NestJS-Backend-E0234E?style=for-the-badge&logo=nestjs&logoColor=white"/>
-<img src="https://img.shields.io/badge/Express.js-Backend-000000?style=for-the-badge&logo=express&logoColor=white"/>
-
-<br/><br/>
-
-`Controllers`
-•
-`Resolvers`
-•
-`Services`
-•
-`Guards`
-•
-`Interceptors`
-•
-`Modules`
-
-</div>
-
-<br/>
-
----
-
-<!-- ================= DATABASE ================= -->
-
-## 🗄️ Databases
-
-<div align="center">
-
-<img
-  src="https://skillicons.dev/icons?i=mongodb,postgres&perline=6"
-  alt="Database Tech"
-/>
-
-<br/><br/>
-
-<img src="https://img.shields.io/badge/MongoDB-Database-47A248?style=for-the-badge&logo=mongodb&logoColor=white"/>
-<img src="https://img.shields.io/badge/Mongoose-ODM-880000?style=for-the-badge&logo=mongoose&logoColor=white"/>
-<img src="https://img.shields.io/badge/PostgreSQL-Database-4169E1?style=for-the-badge&logo=postgresql&logoColor=white"/>
-
-<br/><br/>
-
-`MongoDB`
-•
-`Mongoose ODM`
-•
-`Aggregation Pipeline`
-•
-`PostgreSQL`
-
-</div>
-
-<br/>
-
----
-
-<!-- ================= API ================= -->
-
-## 🔐 APIs & Authentication
-
-<div align="center">
-
-<img
-  src="https://skillicons.dev/icons?i=graphql,postman&perline=6"
-  alt="API Tech"
-/>
-
-<br/><br/>
-
-<img src="https://img.shields.io/badge/GraphQL-API-E10098?style=for-the-badge&logo=graphql&logoColor=white"/>
-<img src="https://img.shields.io/badge/REST-API-FF6C37?style=for-the-badge&logo=postman&logoColor=white"/>
-<img src="https://img.shields.io/badge/JWT-Authentication-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white"/>
-
-<br/><br/>
-
-`GraphQL`
-•
-`REST API`
-•
-`JWT`
-•
-`Authentication`
-•
-`Authorization`
-
-</div>
-
-<br/>
-
----
-
-<!-- ================= LANGUAGES ================= -->
-
-## 💻 Programming Languages
-
-<div align="center">
-
-<img
-  src="https://skillicons.dev/icons?i=ts,js,python&perline=6"
-  alt="Programming Languages"
-/>
-
-<br/><br/>
-
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/>
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-
-</div>
-
-<br/>
-
----
-
-<!-- ================= ROBOTICS ================= -->
-
-## 🤖 Robotics & Simulation
-
-<div align="center">
-
-<img src="https://img.shields.io/badge/NVIDIA-Isaac_Sim-76B900?style=for-the-badge&logo=nvidia&logoColor=white"/>
-<img src="https://img.shields.io/badge/AMR-Navigation-F7317F?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/VLM-Navigation-7F00FF?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Synthetic-Data-00D9FF?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Python-Robotics-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-
-<br/><br/>
-
-`NVIDIA Isaac Sim`
-•
-`AMR`
-•
-`VLM Navigation`
-•
-`Synthetic Data`
-•
-`Python`
-
-</div>
-
-<br/>
-
----
-
-<!-- ================= TOOLS ================= -->
-
-## 🛠 Development Tools
-
-<div align="center">
-
-<img
-  src="https://skillicons.dev/icons?i=git,github,vscode,postman,npm&perline=6"
-  alt="Development Tools"
-/>
-
-<br/><br/>
-
-<img src="https://img.shields.io/badge/Git-Version_Control-F05032?style=for-the-badge&logo=git&logoColor=white"/>
-<img src="https://img.shields.io/badge/GitHub-Code-181717?style=for-the-badge&logo=github&logoColor=white"/>
-<img src="https://img.shields.io/badge/Postman-API_Testing-FF6C37?style=for-the-badge&logo=postman&logoColor=white"/>
-
-</div>
-
-<br/>
-
----
-
-<!-- ================= BACKEND CONCEPTS ================= -->
-
-## 🏗️ Backend Concepts
-
-<div align="center">
-
-<img src="https://img.shields.io/badge/MVC-Architecture-F7317F?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/GraphQL-Resolvers-E10098?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/NestJS-Guards-E0234E?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/NestJS-Interceptors-00D9FF?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/JWT-Authorization-7F00FF?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Mongoose-Aggregation-47A248?style=for-the-badge"/>
-
-</div>
-
-<br/>
-
----
 
 <!-- ====================================================== -->
 <!--                    GITHUB ANALYTICS                    -->
