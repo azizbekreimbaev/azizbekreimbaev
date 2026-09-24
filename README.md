@@ -80,28 +80,29 @@
 ---
 
 
-<!-- ================= ACTIVITY ================= -->
-<!-- ================= GITHUB ACTIVITY ================= -->
+<!-- <!-- ================= GITHUB ACTIVITY ================= -->
 
 ## 📊 GitHub Activity
 
 <div align="center">
 
 <img
-src="https://github-stats-extended.vercel.app/api?username=azizbekreimbaev&show_icons=true&hide_border=true&theme=tokyonight"
-height="165"
+src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=azizbekreimbaev&theme=tokyonight"
+height="170"
 alt="GitHub Stats"
 />
 
 <img
-src="https://github-stats-extended.vercel.app/api/top-langs/?username=azizbekreimbaev&layout=compact&hide_border=true&theme=tokyonight"
-height="165"
-alt="Top Languages"
+src="https://streak-stats.demolab.com?user=azizbekreimbaev&theme=tokyonight&hide_border=true"
+height="170"
+alt="GitHub Streak"
 />
 
 </div>
 
 <br/>
+
+---
 
 ---
 
