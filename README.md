@@ -76,11 +76,8 @@
 </div>
 
 <br/>
-
----<!-- ====================================================== -->
-
+<!-- ====================================================== -->
 <!--                    GITHUB ANALYTICS                    -->
-
 <!-- ====================================================== -->
 
 ## 🏆 GitHub Analytics
@@ -88,24 +85,22 @@
 <div align="center">
 
 <img
-src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=18&duration=2200&pause=700&color=00D9FF&center=true&vCenter=true&width=750&lines=Code+%E2%80%A2+Commit+%E2%80%A2+Build+%E2%80%A2+Improve;Consistency+Creates+Progress;Building+One+Commit+at+a+Time"
-alt="GitHub Analytics"
+  src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=18&duration=2200&pause=700&color=00D9FF&center=true&vCenter=true&width=750&lines=Code+%E2%80%A2+Commit+%E2%80%A2+Build+%E2%80%A2+Improve;Consistency+Creates+Progress;Building+One+Commit+at+a+Time"
+  alt="GitHub Analytics"
 />
 
 <br/><br/>
 
 <img
-width="32%"
-src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=azizbekreimbaev&theme=tokyonight"
-alt="GitHub Stats"
-/> <img
-width="32%"
-src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=azizbekreimbaev&theme=tokyonight"
-alt="Languages"
-/> <img
-width="32%"
-src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=azizbekreimbaev&theme=tokyonight&utcOffset=9"
-alt="Productive Time"
+  width="47%"
+  src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=azizbekreimbaev&theme=tokyonight"
+  alt="GitHub Stats"
+/>
+
+<img
+  width="47%"
+  src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=azizbekreimbaev&theme=tokyonight"
+  alt="Top Languages"
 />
 
 </div>
@@ -113,7 +108,6 @@ alt="Productive Time"
 <br/>
 
 ---
-
 ---
 
 ---
@@ -216,38 +210,6 @@ Think → Design → Build → Test → Debug → Improve
 
 
 
-<!-- ====================================================== -->
-<!--                    GITHUB ANALYTICS                    -->
-<!-- ====================================================== -->
-
-# 🏆 GitHub Analytics
-
-<div align="center">
-
-<img
-  height="180"
-  src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=azizbekreimbaev&theme=tokyonight"
-  alt="GitHub Stats"
-/>
-
-<img
-  height="180"
-  src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=azizbekreimbaev&theme=tokyonight"
-  alt="Top Languages"
-/>
-
-<br/><br/>
-
-<img
-  src="https://streak-stats.demolab.com?user=azizbekreimbaev&theme=tokyonight&hide_border=true&background=00000000"
-  alt="GitHub Streak"
-/>
-
-</div>
-
-<br/>
-
----
 
 
 
