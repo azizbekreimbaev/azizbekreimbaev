@@ -158,7 +158,7 @@ Think → Design → Build → Test → Debug → Improve
 <img
   src="https://raw.githubusercontent.com/azizbekreimbaev/azizbekreimbaev/main/assets/neural-brain.svg"
   width="100%"
-  alt="Azizbek Kevin Animated Neural Developer Brain"
+  alt="Developer Brain"
 />
 
 <br/>
@@ -178,29 +178,6 @@ Think → Design → Build → Test → Debug → Improve
 
 ---
 
-## ⚡ Tech Stack
-
-<div align="center">
-
-<img src="https://skillicons.dev/icons?i=react,redux,vite,ts,js,html,css,nodejs,nestjs,express,mongodb,postgres,graphql,python,git,github,vscode,postman,npm&perline=19" alt="Tech Stack" />
-
-<br/><br/>
-
-<img src="https://img.shields.io/badge/NVIDIA%20Isaac%20Sim-76B900?style=flat-square&logo=nvidia&logoColor=white"/>
-<img src="https://img.shields.io/badge/Mongoose-880000?style=flat-square&logo=mongoose&logoColor=white"/>
-<img src="https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white"/>
-<img src="https://img.shields.io/badge/AMR-Navigation-F7317F?style=flat-square"/>
-<img src="https://img.shields.io/badge/VLM-Navigation-7F00FF?style=flat-square"/>
-<img src="https://img.shields.io/badge/Synthetic%20Data-00A6D6?style=flat-square"/>
-
-<br/><br/>
-
-`React` • `Redux` • `Vite` • `TypeScript` • `JavaScript` • `HTML` • `CSS` •
-`Node.js` • `NestJS` • `Express.js` • `MongoDB` • `Mongoose` • `PostgreSQL` •
-`GraphQL` • `REST API` • `JWT` • `Python` • `NVIDIA Isaac Sim` • `AMR` •
-`VLM Navigation` • `Synthetic Data` • `Git` • `GitHub` • `Postman`
-
-</div>
 
 
 <!-- ====================================================== -->
